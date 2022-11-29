@@ -1,0 +1,98 @@
+.flexbox-1 {
+  display: flex;
+}
+
+.flexbox-2 {
+  margin-top: 30px;
+  display: flex;
+}
+
+.item1 {
+  width: 50px;
+  background-color: lightblue;
+}
+
+.item2 {
+  flex: 1;
+  background-color: lightpink;
+}
+
+.item3 {
+  width: 75px;
+  background-color: lightblue;
+}
+
+.flexbox-3 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item4, .item5, .item6, .item7 {
+  background-color: lightpink;
+}
+
+.flexbox-4 {
+  border: 2px solid gray;
+  height: 50px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item8, .item9 {
+  background-color: lightpink;
+}
+
+.header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: purple;
+  height: 60px;
+}
+
+.left-section {
+  background-color: lightblue;
+  width: 90px;
+  color: white;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.middle-section {
+  flex: 1;
+  max-width: 500px;
+  margin-right: 50px;
+  margin-left: 30px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 5px 0 5px 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 14px;
+}
+
+.right-section {
+  background-color: lightblue;
+  margin-right: 10px;
+}
+
+.download-button {
+  text-decoration: none;
+  border: 1px solid white;
+  background-color: purple;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
