@@ -1,0 +1,37 @@
+.profile-photo-wrapper {
+  display: inline-block;
+}
+
+.profile-photo {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-info {
+  display: inline-block;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(94, 94, 94);
+  margin-bottom: 10px;
+}
+
+.popularity {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(94, 94, 94)
+}
