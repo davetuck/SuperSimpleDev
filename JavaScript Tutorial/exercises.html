@@ -27,17 +27,45 @@
 
       // Exercises 7
 
-      function toUpper(stringArr) {
-        let result = [];
+      // function toUpper(stringArr) {
+      //   let result = [];
 
-        stringArr.forEach(function (str) {
-          result.push(str.toUpperCase());
-        });
+      //   stringArr.forEach(function (str) {
+      //     result.push(str.toUpperCase());
+      //   });
 
-        console.log(result);
+      //   console.log(result);
+      // }
+      // toUpper(["string one", "string two", "string three", "string four"]);
+
+      // function arrayDouble(stringArr) {
+      //   let result = []
+
+      //   stringArr.forEach(function (str) {
+      //     result.push(str);
+      //     result.push(str);
+      //   });
+      //   console.log(result);
+      // }
+      // arrayDouble(['bark', 'meow'])
+
+      // function arraySum(numArray) {
+      //   let total = 0;
+
+      //   numArray.forEach(function (num) {
+      //     total = total + num;
+      //   });
+      //   console.log(total);
+      // }
+      // arraySum([5, -2, 7, 0]);
+
+    </script>
+    <button id="todo-buton" onclick="chageToDone()">To-Do</button>
+    <script>
+      function changeToDone() {
+        let button = document.getElementById('todo-button');
+        button.innerText = 'Done';
       }
-      toUpper(["string one", "string two", "string three", "string four"]);
-
     </script>
   </body>
 </html>
